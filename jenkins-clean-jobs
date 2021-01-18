@@ -1,4 +1,4 @@
-//Clean and update build jobs in Jenkins 
+// Clean and update build jobs in Jenkins 
 job = Jenkins.instance.getItemByFullName("JobName")
 job.builds.each()   { build ->
     build.delete()
